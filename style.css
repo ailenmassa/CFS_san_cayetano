@@ -1,0 +1,128 @@
+.encabezado {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 80px;
+    border:solid 1px black;
+    background-color: #eae0ed;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.menu1 {
+    border:solid 1px black;
+    width: 270px;
+    height: 25px;
+    background-color: #32cd32;
+    color: white;
+    margin-top: 15px;
+    margin-left: 100px ;
+    margin-right: 15px;
+}
+
+.menu2 {
+    border:solid 1px black;
+    width: 350px;
+    height: 25px;
+    background-color: #840005;
+    color: white;
+    margin-left: 100px ;
+    margin-right: 15px;
+}
+
+.logo {
+    border:solid 1px black;
+    width: 130px;
+    height: 25px;
+    background-color: #191970;
+    color: white;
+    display: flex;
+    margin-left: 15px ;
+}
+
+.medio {
+    display: flex;
+    width: 650px;
+    height: 250px;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+}
+
+.izquierda {
+    border:solid 1px black;
+    width: 200px;
+    height: 230px;
+    background-color: rgb(71, 70, 70);
+    border-radius: 10px;
+}
+
+.centro {
+    border:solid 1px black;
+    width: 200px;
+    height: 230px;
+    background-color: #20b2aa;
+    border-radius: 10px;
+}
+
+.derecha {
+    border:solid 1px black;
+    width: 200px;
+    height: 230px;
+    background-color: #ffa500;
+    border-radius: 10px;
+}
+
+.medio2 {
+    display:flex;
+    width: 650px;
+    height: 250px;
+    justify-content: space-between;
+    font-size: 20px; 
+    color: white;
+}
+
+.izquierda2 {
+    border:solid 1px black;
+    width: 425px;
+    height: 230px;
+    background-color:  #013301;
+    border-radius: 10px;
+}
+
+.derecha2 {
+    border:solid 1px black;
+    width: 200px;
+    height: 230px;
+    background-color: #8f2600;
+    border-radius: 10px;
+}
+
+.pie {
+    border:solid 1px black;
+    width: 650px;
+    height: 80px;
+    background-color:#0efcf0;
+    display: flex;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.elemento {
+    border:solid 1px black;
+    width: 130px;
+    height: 25px;
+    background-color: #00008b;
+    color: #eae0ed;
+    margin-left: 420px;
+    margin-top: 35px;
+}
+
+.texto {
+    display: flex;
+    margin: 10px;
+    font-size: 20px;
+}
+
