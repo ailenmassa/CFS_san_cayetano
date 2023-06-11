@@ -43,17 +43,18 @@ img {
    margin-left: 120px ;
 }
 
-#footer{
+.boton{
     text-align: center;
     font-size: 20px;
-   background-color: blueviolet;
-   
+    background-color: blueviolet;
 }
-#footer:hover {
-    background-color: rgb(248, 125, 248);
+
+.boton:visited {
+    background-color: rgb(235, 11, 3);
 }
-#footer:visited {
-    background-color: rgb(100, 64, 228);
+.boton:hover {
+    background-color: rgb(99, 22, 95);
 }
+
 
 
