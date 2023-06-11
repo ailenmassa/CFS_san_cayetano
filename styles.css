@@ -1,0 +1,59 @@
+body {
+    background-image: url(imagenes/background.jpg.png);
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 70px ;
+    font-family: jokerman ;
+    color: whitesmoke;
+    background-image: url(imagenes/smoke.jpg.png);
+} 
+
+a{
+    text-decoration: none;
+    color:rgb(18, 253, 96);
+    margin: 0 10px;
+}
+
+.titulo {
+    font-family: cooper; 
+    font-size: 35px; 
+    margin-left: 30px;
+    font-style: italic;
+    background-color:grey ;
+}
+
+li { 
+margin-left: 50px;
+margin-bottom: 10px;
+font-size: 25px;
+color:aliceblue;
+}
+
+img {
+   width: 400px;
+   margin-top: 10px;
+   margin-left: 120px ;
+}
+
+#footer{
+    text-align: center;
+    font-size: 20px;
+   background-color: blueviolet;
+   
+}
+#footer:hover {
+    background-color: rgb(248, 125, 248);
+}
+#footer:visited {
+    background-color: rgb(100, 64, 228);
+}
+
+
