@@ -1,0 +1,112 @@
+
+body{
+    background-color:#fdfbfd;
+    font-family:'Franklin Gothic Medium';
+    color: aliceblue;
+}
+
+h2{    
+background-color: #901294;
+text-align: center;
+font-size: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-top: 30px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+#inicio{
+    display: flex;
+    
+}
+
+.inicio2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(175, 83, 187);
+
+}
+
+.fotos1{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-color: #901294;
+}
+
+#tabla{
+    display: flex;
+    justify-content: center;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+#cuadros1{
+    display: flex;
+    flex-direction: column;
+    border-color: solid 2px black;
+}
+
+.content-table {
+     border-collapse: collapse; 
+     margin: 50px 0; 
+     font-size: 20px; 
+     font-family: sans-serif; 
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+     color: black;
+ }
+
+ .content-table thead tr {
+     background-color: #530047; 
+     color: #ffffff; 
+     text-align:justify;    
+}
+.content-table th, .styled-table td { 
+    min-width: 220px; 
+    padding: 12px 15px; 
+}
+
+.content-table tbody tr { 
+    border-bottom: 20px solid #dddddd; 
+    border-top: 20px solid #dddddd; 
+} 
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3; 
+} 
+
+
+
+
+.fotos{
+width: 300px;
+height: 200px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction:column;
+   font-size: 25px;
+    padding-top: 30px;
+    background-color:rgb(175, 83, 187);
+}
+.nav-link{
+    color: aliceblue;    
+    border-radius: 50px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: #901294;;
+    
+}  
