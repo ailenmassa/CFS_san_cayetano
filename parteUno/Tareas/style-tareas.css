@@ -1,0 +1,164 @@
+
+body{
+    background-color:#fdfbfd;
+    font-family:'Franklin Gothic Medium';
+    color: aliceblue;
+
+}
+
+/* titulos----------------------- */
+
+h2{    
+color: #550fb6;
+text-align: center;
+font-size: 40px;
+margin-bottom: 40px;
+margin-top:40px ;
+}
+
+/* pagina cuerpo------------------------ */
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(137, 94, 255);
+
+}
+
+#inicio{
+    display: flex;
+    
+}
+
+.inicio2{
+    width: 100%;
+}
+
+
+/* fotos------------------------------ */
+.fotos{
+    width: 250px;
+    height: 125px;
+    border: 2px;
+    border-style: solid;
+    border-color: #550fb6;
+}
+    
+.fotos1{
+     display: flex;
+     justify-content: space-between;
+     border-top: 2px;
+     border-style: solid;
+     border-color: #550fb6;
+}
+ 
+/* barra navegacion------------------------- */
+
+.navbar{
+    display: flex;
+    flex-direction:column;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color:rgb(137, 94, 255);
+    width: 250px;
+   
+}
+
+.nav-link{
+    color: aliceblue;    
+    border-radius: 50px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: #550fb6;;
+    
+}  
+
+/* tareas lista------------- */
+
+#addNew1{
+    background-color: rgb(181, 157, 253);
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10%;
+    margin-right: 10% ;
+    width: 80%;
+}
+
+#addNew2{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-left: 10%;
+margin-right: 10% ;
+width: 80%;
+
+}
+
+.button1{
+    width: 150px;
+    align-self: center;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(44, 12, 78);
+    
+}
+
+#addTodoForm{
+    margin-bottom: 30px;  
+    margin-top: 30px;
+}
+
+#todoTable{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(44, 12, 78);
+margin-bottom: 100px;
+}
+
+#todoTable th, #todoTable td{
+    padding: 5px 60 px;
+    border: 1px; 
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+#todoTable td{
+    background-color: rgb(181, 157, 253);
+}
+.completed{
+       color: rgb(128, 0, 38);
+       font-style: italic;
+}
+
+.pending{
+    color: blue;
+    font-style: italic;
+
+}
+
+#todoModal{
+    border-color:  rgb(44, 12, 78); 
+}
+
+#todoDescriptionModal{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.button{
+    background-color: rgb(181, 157, 253);
+    margin: 5px;
+    border-color: rgb(44, 12, 78); 
+}
+
+.lista{
+    margin-left: 200px;
+    margin-right: 200px;
+}

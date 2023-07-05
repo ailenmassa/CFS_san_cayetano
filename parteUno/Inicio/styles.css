@@ -1,0 +1,80 @@
+body{
+    background-color:#fdfbfd;
+    font-family:'Franklin Gothic Medium';
+    color: aliceblue;
+}
+
+h2{    
+background-color:#550fb6;
+text-align: center;
+font-size: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-top: 30px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(137, 94, 255); 
+}
+
+.fotos{
+    width: 250px;
+    height: 125px;
+    border: 2px;
+    border-style: solid;
+    border-color: #550fb6;
+}
+    
+.fotos1{
+        display: flex;
+        justify-content: space-between;border: 2px;
+        border-style: solid;
+        border-color: #550fb6;
+     }
+
+#inicio{
+    display: flex;    
+}
+
+.inicio2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px; 
+    margin-top: 20px; 
+}
+
+.ofertas{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border-color: solid 3px black;
+}
+
+
+
+.navbar{
+    display: flex;
+    flex-direction:column;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color:rgb(137, 94, 255);
+    width: 250px;
+}
+
+.nav-link{
+    color: aliceblue;    
+    border-radius: 50px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: #550fb6;
+    
+}  
+
