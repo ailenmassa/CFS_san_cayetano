@@ -61,7 +61,7 @@ class Televisor {
       console.log("Cambiaste al canal", this.channel);
     }
     info(): void {
-      console.log("canal",this.channel, "volumen", this.volume, "hora");
+      console.log("canal",this.channel, "volumen", this.volume, "hora",.toLocaleTimeString([],{hour: '2-digit', minute:'2-digit'}));
     }
   }
   
